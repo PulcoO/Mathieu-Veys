@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap");
+
+/* Global styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+
+body {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 12px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #e7e7e7;
+  background: rgb(19, 19, 19);
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(3, 155, 155);
+}
+
+a:hover {
+  color: rgba(249, 105, 14, 1);
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 5rem 0;
+  width: 100%;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+    margin-bottom: 350px;
+    background-color: rgb(19, 19, 19);
+    margin-bottom: 350px;
+}
+
+footer {
+  width: 100%;
+  max-width: 70rem;
+  height: 350px;
+  max-height: 550px;
+  margin: auto;
+  padding: 2.5rem;
+  background-color: rgb(19, 19, 19);
+  color: #8a8a8a;
+  text-align: center;
+  font-size: 1.2rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-direction: column; */
+  z-index: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}

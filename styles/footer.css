@@ -1,0 +1,21 @@
+/* Footer */
+  
+  footer a {
+    color: rgba(3, 155, 155);
+    margin: 0 0.2rem;
+  }
+  
+  .footer-copywrite {
+    margin: 2rem 0;
+  }
+  
+  .footer-copywrite img {
+    width: 2rem;
+  }
+  
+  .footer-social a,
+  .social-icons a {
+    margin: 0 0.5rem;
+    font-size: 2rem;
+  }
+  

@@ -1,0 +1,78 @@
+
+/* skills */
+.skills {
+    padding: 0;
+    padding: 3rem 0;
+    min-height: 100vh;
+    max-width: 90rem;
+    margin: auto;
+  }
+  
+  .title-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+  }
+  
+  .title-heading h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0 1rem;
+  }
+  
+  .title-heading p {
+    text-transform: lowercase;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 5rem;
+  }
+  
+  .skills-tiers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+  }
+  
+  .tier-item {
+    height: 30rem;
+
+    padding: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: default;
+  }
+  .tier-item header {
+      width: 100%;
+      height: auto;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .tier-item h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+    background: linear-gradient(
+      to right,
+      rgba(249, 105, 14, 1) 0%,
+      rgba(102, 51, 153, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .tier-item p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+  }
+  .tier-item span {
+    font-size: 4rem;
+  }
+  .tier-item ul{
+
+  }
+  .tier-item li{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+  }
+  
