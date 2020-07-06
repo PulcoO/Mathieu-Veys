@@ -10,10 +10,15 @@
   
 .about .container {
   min-height: 80vh;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-text-container{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .about-img img {
@@ -36,7 +41,7 @@
   }
   
   .about-text-box h2 i{
-    font-size: 4rem;
+    font-size: 3rem;
     transform: rotate(-45deg);
   }
   

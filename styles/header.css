@@ -50,8 +50,8 @@ nav {
       cursor: pointer;
       z-index: 999;
       position: fixed;
-      right: 275px;
-      top: 40px;
+      right: 5%;
+      top: 5%;
       padding: 1.2rem;
       border-radius: 0% 0% 0% 40%;
   }
