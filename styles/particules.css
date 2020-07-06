@@ -7,6 +7,7 @@ canvas{
     position: relative;
     width: 100%;
     max-width: 70rem;
+    min-height: 20rem;
     overflow: hidden;
 }
 /* ---- particles.js container ---- */ 
